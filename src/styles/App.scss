@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.svg-border {
+  border: dashed #4078bc
+}
+
+.f-b-20-54 {
+  font: 700 20px/54px 'Montserrat', sans-serif;
+  color: #464a53;
+}
+
+.f-m-24-18 {
+  font: 400 24px/18px 'Montserrat', sans-serif;
+}
+
+.f-m-14-21 {
+  font: 400 14px/21px 'Montserrat', sans-serif;
+}
+
+.f-b-18-24 {
+  font: 600 18px/24px 'Public Sans', sans-serif;
+}
+
+.f-b-15-18 {
+  font: 600 15px/18px 'Montserrat', sans-serif;
+}
+
+.f-l-18-20 {
+  font: 400 18px/20px 'Public Sans', sans-serif
+}
+
+.f-l-36-18 {
+  font: 700 36px/18px 'Montserrat', sans-serif
+}
+
+.label {
+  font: 400 18px/34px 'Montserrat', sans-serif;
+  color: #7D7E80;
+  transform: rotate(-90deg);
+}
+
+.label-v {
+  font: var(--light-basictypography-paragraphsmall, 400 13px/20px 'Public Sans', sans-serif);
+}
+
+.label-h {
+  font: var(--light-forminput-8-placeholderdefault, 400 15px/24px 'Public Sans', sans-serif);
+}
+
+.label-b {
+  font: 400 18px/48px 'Montserrat', sans-serif;
+  color: #7D7E80;
+}
+
+.button-v {
+  border: 1px solid #4078bc;
+  font: var(--button-buttonmd, 500 14px 'Montserrat', sans-serif);
+}
+
+.bs-l-g-4-18 {
+  box-shadow: var(--light-gray-card-box-shadow, 0px 4px 18px 0px rgba(75, 70, 92, 0.10))
+}
